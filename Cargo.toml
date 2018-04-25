@@ -1,0 +1,11 @@
+[package]
+name = "certificate-audit"
+version = "0.0.1"
+authors = ["Brent Montague <bigbam505@gmail.com>"]
+description = "Audit https certificate to figure out if its expiring soon"
+
+[dependencies]
+log = "0.4"
+loggerv = "0.7.1"
+clap = "2.31"
+ssl-expiration = "0.1.0"
